@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ExifLens</title>
+<style>
+:root{--bg:#0b0e14;--panel:#121722;--line:#232c3d;--fg:#dbe4f0;--dim:#7d8ba1;--acc:#8be07a;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:48px 22px}
+h1{font-size:30px;margin:0 0 6px}
+h1 span{color:var(--acc)}
+.tag{color:var(--dim);margin:0 0 26px}
+a{color:var(--acc)}
+.cta{display:inline-block;background:var(--acc);color:#0c1c06;font-weight:600;padding:11px 22px;border-radius:10px;text-decoration:none;margin:18px 0 30px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:14px 0}
+h2{font-size:16px;margin:0 0 8px}
+ul{margin:8px 0;padding-left:20px}
+li{margin:4px 0}
+code{background:#0e131d;border:1px solid var(--line);border-radius:6px;padding:1px 6px;font:13px ui-monospace,Menlo,Consolas,monospace}
+.dim{color:var(--dim)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Exif<span>Lens</span></h1>
+  <p class="tag">Every photo your phone or camera saves can carry its exact GPS location, the camera's serial number, and the precise second it was taken. ExifLens shows you exactly what a photo leaks - before you post it. Everything runs locally in your browser; the photo never leaves your machine.</p>
+  <a class="cta" href="app.html">Open ExifLens</a>
+  <div class="card">
+    <h2>What it reads</h2>
+    <ul>
+      <li>Camera: make, model, lens, body serial number, software, orientation</li>
+      <li>Exposure: shutter, f-number, ISO, program, bias, metering, flash, focal length - with APEX value cross-checks</li>
+      <li>Location: GPS coordinates converted to decimal degrees with signed altitude, linked to a map</li>
+      <li>Dates: taken, file modified, GPS date</li>
+      <li>Container: JPEG APP1 walking, EXIF byte order (II and MM), EXIF version</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Why trust it</h2>
+    <p class="dim">The JavaScript engine is checked field-by-field against the <a href="https://github.com/ianare/exif-py">exifread</a> python library in <code>tests/run_tests.js</code>: 90 assertions over a six-photo corpus covering both TIFF byte orders, GPS with all four hemisphere refs, signed rationals, reduced fractions, and a no-EXIF file. GPS-decimal and APEX conversions are verified independently in plain Python in the oracle.</p>
+  </div>
+  <div class="card">
+    <h2>Limits</h2>
+    <p class="dim">JPEG only (no HEIC/PNG/TIFF/TIFF-based RAW yet). Reads the standard IFD0, Exif and GPS sub-IFDs; maker notes and embedded thumbnails are skipped. FLOAT/DOUBLE tag types are skipped.</p>
+  </div>
+  <p class="dim">Part of the app factory. <a href="https://github.com/iLanis-agent/exiflens">source</a></p>
+</main>
+</body>
+</html>
