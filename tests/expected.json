@@ -1,0 +1,274 @@
+{
+ "items": [
+  {
+   "file": "canon_gps.jpg",
+   "has_exif": true,
+   "byte_order": "MM",
+   "Make": "Canon",
+   "Model": "Canon EOS R5",
+   "Orientation": 1,
+   "XResolution": [
+    [
+     240,
+     1
+    ]
+   ],
+   "YResolution": [
+    [
+     240,
+     1
+    ]
+   ],
+   "ResolutionUnit": 2,
+   "Software": "DigiCam Control 2.1",
+   "DateTime": "2026:03:14 09:26:58",
+   "ExposureTime": [
+    [
+     1,
+     250
+    ]
+   ],
+   "FNumber": [
+    [
+     14,
+     5
+    ]
+   ],
+   "ExposureProgram": 3,
+   "ISOSpeedRatings": 400,
+   "ExifVersion": [
+    48,
+    50,
+    51,
+    49
+   ],
+   "DateTimeOriginal": "2026:03:14 09:26:58",
+   "ShutterSpeedValue": [
+    [
+     995723,
+     125000
+    ]
+   ],
+   "ApertureValue": [
+    [
+     1485427,
+     500000
+    ]
+   ],
+   "ExposureBiasValue": [
+    [
+     -1,
+     3
+    ]
+   ],
+   "MaxApertureValue": [
+    [
+     1485427,
+     500000
+    ]
+   ],
+   "MeteringMode": 5,
+   "Flash": 0,
+   "FocalLength": [
+    [
+     50,
+     1
+    ]
+   ],
+   "ColorSpace": 1,
+   "LensMake": "Canon",
+   "LensModel": "RF 50mm F1.2 L USM",
+   "BodySerialNumber": "123456789012",
+   "GPSLatitudeRef": "N",
+   "GPSLatitude": [
+    [
+     32,
+     1
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     1767,
+     250
+    ]
+   ],
+   "GPSLongitudeRef": "E",
+   "GPSLongitude": [
+    [
+     34,
+     1
+    ],
+    [
+     46,
+     1
+    ],
+    [
+     3403,
+     625
+    ]
+   ],
+   "GPSAltitudeRef": 0,
+   "GPSAltitude": [
+    [
+     15,
+     1
+    ]
+   ],
+   "gps_lat_dec": 32.085297,
+   "gps_lon_dec": 34.768179,
+   "gps_alt_signed": 15.0,
+   "apex_shutter_s": 0.004000000789250969,
+   "apex_fnumber": 2.800000335430107
+  },
+  {
+   "file": "apple_sw.jpg",
+   "has_exif": true,
+   "byte_order": "MM",
+   "Make": "Apple",
+   "Model": "iPhone 15 Pro",
+   "Orientation": 6,
+   "Software": "17.4.1",
+   "DateTime": "2026:06:01 18:40:02",
+   "ExposureTime": [
+    [
+     1,
+     120
+    ]
+   ],
+   "FNumber": [
+    [
+     89,
+     50
+    ]
+   ],
+   "ExposureProgram": 2,
+   "ISOSpeedRatings": 64,
+   "ExifVersion": [
+    48,
+    50,
+    51,
+    50
+   ],
+   "DateTimeOriginal": "2026:06:01 18:40:02",
+   "ExposureBiasValue": [
+    [
+     0,
+     1
+    ]
+   ],
+   "MeteringMode": 5,
+   "Flash": 24,
+   "FocalLength": [
+    [
+     677,
+     100
+    ]
+   ],
+   "ColorSpace": 65535,
+   "LensModel": "iPhone 15 Pro back triple camera 6.765mm f/1.78",
+   "GPSLatitudeRef": "S",
+   "GPSLatitude": [
+    [
+     22,
+     1
+    ],
+    [
+     54,
+     1
+    ],
+    [
+     306,
+     125
+    ]
+   ],
+   "GPSLongitudeRef": "W",
+   "GPSLongitude": [
+    [
+     43,
+     1
+    ],
+    [
+     10,
+     1
+    ],
+    [
+     561,
+     250
+    ]
+   ],
+   "GPSAltitudeRef": 1,
+   "GPSAltitude": [
+    [
+     5,
+     1
+    ]
+   ],
+   "gps_lat_dec": -22.90068,
+   "gps_lon_dec": -43.16729,
+   "gps_alt_signed": -5.0
+  },
+  {
+   "file": "minimal.jpg",
+   "has_exif": true,
+   "byte_order": "MM",
+   "Make": "NIKON",
+   "Model": "D850"
+  },
+  {
+   "file": "bigendian.jpg",
+   "has_exif": true,
+   "byte_order": "MM",
+   "Make": "Fujifilm",
+   "Orientation": 8,
+   "ExposureTime": [
+    [
+     1,
+     500
+    ]
+   ],
+   "FNumber": [
+    [
+     28,
+     5
+    ]
+   ],
+   "ExposureBiasValue": [
+    [
+     -2,
+     3
+    ]
+   ]
+  },
+  {
+   "file": "littleendian.jpg",
+   "has_exif": true,
+   "byte_order": "II",
+   "Make": "Fujifilm",
+   "Orientation": 3,
+   "ExposureTime": [
+    [
+     1,
+     500
+    ]
+   ],
+   "FNumber": [
+    [
+     28,
+     5
+    ]
+   ],
+   "ExposureBiasValue": [
+    [
+     -2,
+     3
+    ]
+   ]
+  },
+  {
+   "file": "noexif.jpg",
+   "has_exif": false
+  }
+ ]
+}
